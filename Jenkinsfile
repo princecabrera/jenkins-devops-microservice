@@ -1,7 +1,7 @@
 // SCRIPTTED PIPELINES WHERE STAGE BLOCKS ARE OPTIONAL
 
 // DECLARATIVE
-node {
+pipeline {
 	agent any
 	stages {
 		stage('Build') {
